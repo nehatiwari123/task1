@@ -1,4 +1,13 @@
 # task1
+# Instructions to run the app on your system:-
+1)Assuming that your system already has NodeJS/ExpressJS intalled, first create a folder in c:\ drive named "myapp"(or any name of your choice) and then place all the files on the task1 git repository in this folder.
+2)To run the app, write command "node app.js" in command prompt and go the url http://localhost:8080/
+(Note: Make sure that you are present in your local directory(i.e. "myapp" folder in this case) and then execute above command)
+3)Some important instructions:-
+->Please refresh the web page if you are not able to see the output on the webpage.
+->And,for the http://localhost:8080/input page , after clicking on  "ok" button, you can check the output in the command prompt.
+
+#Following are the details about the app file "app.js":-
 app.js:Consists of expressJS code.It has been segregated into 7 snippets(snippet no. is indicated through comments in the code) where each snippet is used for:-
 snippet 1:A simple hello-world at http://localhost:8080/ that displays a simple string like "Hello World - Arpit"; replace "Arpit" with your own first name).
 snippet 2:Add a route, for e.g. http://localhost:8080/authors, which:
